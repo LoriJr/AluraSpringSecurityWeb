@@ -9,5 +9,4 @@ public record DadosListagemConsulta(Long id, String medico, String paciente, Loc
     public DadosListagemConsulta(Consulta consulta) {
         this(consulta.getId(), consulta.getMedico().getNome(), consulta.getPaciente(), consulta.getData(), consulta.getMedico().getEspecialidade());
     }
-
 }
