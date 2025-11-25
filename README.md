@@ -3,13 +3,13 @@
 ## Esse curso é separado em 5 módulos:
 
 ### Índice
-- [Módulo 1: Utilizando a proteção automática do Spring Security](#Módulo-1:-Utilizando-a-proteção-automática-do-Spring-Security)
-- [Módulo 2: Personalizando as configurações de segurança](#Módulo-2:-Personalizando-as-configurações-de-segurança)
-- [Módulo 3: Gerenciando sessões](#Módulo-3:-Gerenciando-sessões)
-- [Módulo 4: Autenticação com OAuth2](#Módulo-4:Persistindo-usuários-no-banco-de-dados)
-- [Módulo 5: Autenticação com JWT](#Módulo-5:-Integrando-o-Thymeleaf-ao-Spring-SecurityIntegrando-o-Thymeleaf-ao-Spring-Security)
+- [Módulo 1: utilizando a proteção automática do spring security](#módulo-1:-utilizando-a-proteção-automática-do-spring-security)
+- [Módulo 2: Personalizando as configurações de segurança](#módulo-2:-personalizando-as-configurações-de-segurança)
+- [Módulo 3: Gerenciando sessões](#módulo-3:-gerenciando-sessões)
+- [Módulo 4: Autenticação com OAuth2](#módulo-4:persistindo-usuários-no-banco-de-dados)
+- [Módulo 5: Autenticação com JWT](#módulo-5:-integrando-o-thymeleaf-ao-spring-security)
 
-1. ## **Módulo 1: Utilizando a proteção automática do Spring Security
+## **Módulo 1: Utilizando a proteção automática do Spring Security
 - Adicionar o Spring Security em uma aplicação web com Spring Boot, utilizando a dependência do Spring Security no pom.xml.
 
 - Sobrescrever o comportamento padrão de segurança com uma classe de configuração. Para isso, criamos uma classe de configuração de segurança com @Configuration e @EnableWebSecurity, onde é possível personalizar nossa camada de segurança.
